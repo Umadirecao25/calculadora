@@ -1,0 +1,79 @@
+@charset "Utf-8";
+
+
+
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2017/10/19/19/12/planet-2868869_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1{
+    color: #61d4d4e1;
+}
+
+#calculator{
+    max-width: 360px;
+    border-radius: 13px;
+    padding: 18px;
+    box-shadow: 2px 4px 2px ;
+    background: rgb(34,80,195);
+background: radial-gradient(circle, rgba(34,80,195,1) 0%, rgba(62,44,4,1) 100%);}
+
+#display{
+    width: 100%;
+    height: 60px;
+    font-size: 22px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius:3px;
+    color: #ffffff;
+    background: rgb(71,34,195);
+    background: radial-gradient(circle, rgba(71,34,195,1) 13%, rgba(62,44,4,1) 75%);
+    border: none;
+    box-sizing: border-box;
+}
+
+
+button{
+width: calc(25% - 12px);
+height: 50px;
+font-size: 22px;
+margin: 10px 5px;
+border-radius: 5px;
+float: left;
+background-color: #000000;
+color: #ffe4c4;
+box-shadow: 2px 4px 2px ;
+}
+
+.operator{
+    color: #000000;
+    background-color: #ffe4c4;
+}
+
+#ac{
+    color: #000000;
+}
+
+.equal{
+    width: calc(50% - 12px);
+    background-color: #fcfff8;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(.9);
+    box-shadow: 2px 4px 2px;
+}
